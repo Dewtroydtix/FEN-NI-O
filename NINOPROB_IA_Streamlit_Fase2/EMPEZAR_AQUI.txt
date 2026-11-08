@@ -1,0 +1,22 @@
+NIÑOPROB-IA — FASE 2 STREAMLIT
+
+1) Extrae el ZIP completo.
+2) Abre la terminal dentro de NINOPROB_IA_Streamlit_Fase2.
+3) Instala: python -m pip install -r requirements.txt
+4) Inicia:  python -m streamlit run app.py
+5) Abre:    http://localhost:8501
+
+EXPLORAR EL MAR
+- Elige la escala: mensual (2°) o diaria detallada (0,25°).
+- Selecciona el periodo, zona y capa de color.
+- Pulsa "Cargar datos reales NOAA".
+- Usa el mouse para acercarte, inclinar, explorar y seleccionar celdas.
+- Los colores muestran temperatura real o anomalía; la altura 3D es ilustrativa.
+
+ENTRENAR LA IA
+- Abre la pestaña Inteligencia artificial.
+- Pulsa "Entrenar NIÑOPROB-IA con NOAA".
+- Compara el modelo contra la referencia histórica en Evaluación científica.
+
+Se necesita Internet para NOAA y para el mapa base.
+Lee README.md para metodología, fuentes y límites científicos.
