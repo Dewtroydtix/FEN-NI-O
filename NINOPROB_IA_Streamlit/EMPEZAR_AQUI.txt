@@ -1,0 +1,17 @@
+NIÑOPROB-IA — VERSIÓN STREAMLIT
+
+1. Instala Python 3.10+.
+2. Descomprime la carpeta y abre una terminal dentro de ella.
+3. Ejecuta:
+   python -m pip install -r requirements.txt
+   python -m streamlit run app.py
+4. Entra a http://localhost:8501
+5. Pulsa Entrenar IA con NOAA desde el menú lateral.
+6. Selecciona año/mes y pulsa Cargar temperaturas reales NOAA
+   para ver el mapa 3D geográfico con los datos oficiales.
+
+NOTA: Se necesita Internet para NOAA/CPC, NOAA/PSL y el mapa base.
+La IA y el mapa tienen fuentes científicas diferentes: anomalía Niño 1+2
+regional frente a SST absoluta en una cuadrícula de 2°.
+No es pronóstico operativo ni alerta de ENFEN.
+Consulta README.md para instrucciones detalladas.
